@@ -3,6 +3,8 @@ import Design from "./components/Design";
 import Header from "./components/Header";
 import LandingContent from "./components/LandingContent";
 import About from "./components/About";
+import Contact from "./components/Contact";
+
 function App() {
   return (
     <div className="flex flex-col">
@@ -12,6 +14,9 @@ function App() {
         <LandingContent />
       </div>
       <About />
+      <div>
+        <Contact />
+      </div>
     </div>
   );
 }
