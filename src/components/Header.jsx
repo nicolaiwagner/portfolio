@@ -45,7 +45,9 @@ const Header = () => {
         <Links />
 
         <div className="md:hidden">
-          <button onClick={toggleNavbar}>{isOpen ? <X /> : <Menu />}</button>
+          <button className="" onClick={toggleNavbar}>
+            {isOpen ? <X /> : <Menu />}
+          </button>
         </div>
       </header>
       {isOpen && (

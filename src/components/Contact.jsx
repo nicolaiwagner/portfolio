@@ -34,7 +34,7 @@ function Contact() {
       id="contact"
       className="flex flex-col pt-8 md:pt-20 lg:pt-[6.5rem] xl:pt-[9.5rem]"
     >
-      <Toaster />
+      <Toaster position="bottom-center" />
       <form className="flex flex-col font-merri text-egg-white self-center lg:mx-auto xl:pr-10">
         <div className="flex flex-col">
           <label htmlFor="name" className="pb-1 xl:text-[22px]">
