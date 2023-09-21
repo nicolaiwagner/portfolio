@@ -53,7 +53,7 @@ function AboutText() {
             <a
               id="workLink"
               target="_blank"
-              href="https://www.linkedin.com/in/nicolai-wagner-3ab74024a/"
+              href="https://www.linkedin.com/in/nicolai-wagner-3ab74024a"
               rel="noreferrer"
             >
               <FaLinkedin />
