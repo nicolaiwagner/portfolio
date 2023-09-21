@@ -21,7 +21,7 @@ function ContactB() {
             <p className="font-raleway text-[1rem] self-center lg:text-[1.2rem] xl:text-[1.4rem] xl:pr-8">
               <span className="">...Or just need a problem solved?</span> <br />
               Feel free to tell me your ideas for your dream website, or just
-              say hi! Im open to get in contact and talk about how{" "}
+              say hi! I am open to get in contact and talk about how{" "}
               <span className="text-text-orange">we can create together.</span>
             </p>
           </div>
