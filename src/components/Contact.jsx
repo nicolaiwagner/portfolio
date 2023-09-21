@@ -59,7 +59,7 @@ function Contact() {
               setFormData({ ...form, email: e.target.value });
               console.log(e.target.value);
             }}
-            className="border-[4px] text-[12px] italic placeholder-slate-400 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem]"
+            className="border-[4px] text-[12px] italic placeholder-slate-300 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem]"
             type="text"
             name="email"
             id="email"
@@ -74,7 +74,7 @@ function Contact() {
             setFormData({ ...form, subject: e.target.value });
             console.log(e.target.value);
           }}
-          className="border-[4px] text-[12px] italic placeholder-slate-400 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem]"
+          className="border-[4px] text-[12px] italic placeholder-slate-300 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem]"
           type="text"
           name="subject"
           id="subject"
@@ -90,7 +90,7 @@ function Contact() {
             setFormData({ ...form, message: e.target.value });
             console.log(e.target.value);
           }}
-          className="border-[4px] text-[12px] italic placeholder-slate-400 border-egg-white border-double bg-text-purple rounded-3xl h-56 w-80 pl-2 pt-2 xl:w-[22rem] xl:placeholder:text-[0.9rem] "
+          className="border-[4px] text-[12px] italic placeholder-slate-300 border-egg-white border-double bg-text-purple rounded-3xl h-56 w-80 pl-2 pt-2 xl:w-[22rem] xl:placeholder:text-[0.9rem] "
           type="text"
           name="message"
           id="message"
