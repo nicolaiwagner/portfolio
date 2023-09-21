@@ -21,10 +21,10 @@ const Header = () => {
 
   const Links = () => {
     return (
-      <div className="hidden md:flex w-1/5 justify-around text-xl flex-end">
-        <a href="#">Work</a>
+      <div className="hidden md:flex w-1/5 justify-around text-xl flex-end ">
+        <a href="#workLink">Work</a>
         <a href="#aboutLink">About</a>
-        <a href="#">Contact</a>
+        <a href="#contactLink">Contact</a>
       </div>
     );
   };

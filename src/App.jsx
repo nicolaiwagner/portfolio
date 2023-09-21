@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import LandingContent from "./components/LandingContent";
 import About from "./components/About";
 import ContactB from "./blocks/ContactB";
+import ProjectsB from "./blocks/ProjectsB";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <LandingContent />
       </div>
       <About />
+      <ProjectsB />
       <ContactB />
     </div>
   );

@@ -5,9 +5,9 @@ function Sidebar({ isOpen = false }) {
         isOpen ? "opacity-100 visible" : "opacity-0 hidden"
       } transition-all font-fatface text-[3rem] text-egg-white flex flex-col text-center justify-center gap-y-10 `}
     >
-      <a href="#">Work</a>
+      <a href="#workLink">Work</a>
       <a href="#aboutLink">About</a>
-      <a href="#">Contact</a>
+      <a href="#contactLink">Contact</a>
     </div>
   );
 }

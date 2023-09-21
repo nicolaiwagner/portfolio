@@ -11,7 +11,7 @@ function AboutText() {
   });
   return (
     <>
-      <section className=" bg-navy-blue flex flex-col z-100 gap-y-6 md:w-1/2 md:gap-y-4 lg:pt-20 xl:pt-40 xl:pl-14">
+      <section className=" bg-navy-blue flex flex-col z-100 gap-y-6 md:w-1/2 md:gap-y-4 lg:pt-20 xl:pt-40 xl:pl-14 xl:pb-20">
         <div className="flex flex-col ml-2 mt-4 lg:pl-2">
           <h2 className=" text-[1.5rem] font-merri text-text-purple md:text-[1.2rem]">
             About
@@ -46,7 +46,7 @@ function AboutText() {
             <a href="">
               <FaGithubSquare />
             </a>
-            <a href="">
+            <a id="workLink" href="">
               <FaLinkedin />
             </a>
           </div>
