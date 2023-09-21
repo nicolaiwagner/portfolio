@@ -17,7 +17,7 @@ function AboutText() {
             About
           </h2>
           <span className="text-[2.8rem] font-fatface uppercase text-egg-white sticky md:text-[2rem] xl:text-[3rem]">
-            {typeEffect} <span className=" opacity-0">h</span>
+            {typeEffect} <span className=" opacity-0 text-[0.02rem]">h</span>
           </span>
         </div>
         <div className=" text-[1rem] text-egg-white font-raleway mx-[1rem] md:text-[0.9rem] lg:pr-20 xl:text-[1.1rem] xl:pr-60 ">

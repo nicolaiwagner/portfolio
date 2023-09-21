@@ -3,7 +3,7 @@ import Design from "./components/Design";
 import Header from "./components/Header";
 import LandingContent from "./components/LandingContent";
 import About from "./components/About";
-import Contact from "./components/Contact";
+import ContactB from "./blocks/ContactB";
 
 function App() {
   return (
@@ -14,9 +14,7 @@ function App() {
         <LandingContent />
       </div>
       <About />
-      <div>
-        <Contact />
-      </div>
+      <ContactB />
     </div>
   );
 }

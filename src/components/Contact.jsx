@@ -30,52 +30,59 @@ function Contact() {
   }
 
   return (
-    <section id="contact" className="flex flex-col">
+    <section
+      id="contact"
+      className="flex flex-col pt-8 md:pt-20 lg:pt-[6.5rem] xl:pt-[9.5rem]"
+    >
       <Toaster />
-      <div>
-        <h2>Hej med dig</h2>
-        <p>Her skriver jeg om hvad vi kan snakke om hvis du skriver til mig</p>
-      </div>
-      <form className="flex flex-col font-merri self-center">
+      <form className="flex flex-col font-merri text-egg-white self-center lg:mx-auto xl:pr-10">
         <div className="flex flex-col">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name" className="pb-1 xl:text-[22px]">
+            Name
+          </label>
           <input
             onChange={(e) => {
               setFormData({ ...form, name: e.target.value });
               console.log(e.target.value);
             }}
-            className="border-2 border-neon-purple rounded-2xl h-10 w-80 pl-2"
+            className="border-[4px] text-[12px] italic placeholder-slate-300 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem] "
             type="text"
             name="name"
             id="name"
-            placeholder="Name"
+            placeholder="Write your name"
           />
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email" className="pb-1 mt-1 xl:text-[22px]">
+            Email
+          </label>
           <input
             onChange={(e) => {
               setFormData({ ...form, email: e.target.value });
               console.log(e.target.value);
             }}
-            className="border-2 border-neon-purple rounded-2xl h-10 w-80 pl-2"
+            className="border-[4px] text-[12px] italic placeholder-slate-400 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem]"
             type="text"
             name="email"
             id="email"
-            placeholder="Email"
+            placeholder="Write your email"
           />
         </div>
-        <label htmlFor="subject">Subject</label>
+        <label htmlFor="subject" className="pb-1 mt-1 xl:text-[22px]">
+          Topic
+        </label>
         <input
           onChange={(e) => {
             setFormData({ ...form, subject: e.target.value });
             console.log(e.target.value);
           }}
-          className="border-2 border-neon-purple rounded-2xl h-10 w-80 pl-2"
+          className="border-[4px] text-[12px] italic placeholder-slate-400 border-egg-white border-double bg-text-purple rounded-3xl h-10 w-80 pl-2 xl:w-[22rem] xl:h-[3rem] xl:placeholder:text-[0.9rem]"
           type="text"
           name="subject"
           id="subject"
-          placeholder="Subject"
+          placeholder="What is the topic?"
         />
-        <label htmlFor="message">Message</label>
+        <label htmlFor="message" className="mt-1 xl:text-[22px]">
+          Message
+        </label>
         <textarea
           cols={30}
           rows={5}
@@ -83,19 +90,20 @@ function Contact() {
             setFormData({ ...form, message: e.target.value });
             console.log(e.target.value);
           }}
-          className="border-2 border-neon-purple rounded-2xl h-60 w-80 pl-2"
+          className="border-[4px] text-[12px] italic placeholder-slate-400 border-egg-white border-double bg-text-purple rounded-3xl h-56 w-80 pl-2 pt-2 xl:w-[22rem] xl:placeholder:text-[0.9rem] "
           type="text"
           name="message"
           id="message"
-          placeholder="Message"
+          placeholder="Write your message here"
         ></textarea>
         <button
           onClick={(e) => {
             e.preventDefault();
             handleSubmit(form);
           }}
+          className=" border-egg-white text-egg-white font-merri text-lg border-8 rounded-full border-double flex justify-center items-center h-[3.5rem] mt-2 xl:h-[3.7] xl:text-[22px] "
         >
-          Send mail
+          Lets get in touch!
         </button>
       </form>
     </section>
