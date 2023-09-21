@@ -10,7 +10,7 @@ function ProjectsB() {
         <div className="flex flex-col gap-y-8 pt lg:flex-row lg:justify-around lg:w-full lg:px-16 xl:px-40 xl:pb-14">
           <Projects
             title="KAIKA Music"
-            description="Homepage for the music booking company KAIKA Music. Build using Next.js, Typescript and tailwindcss, for a exam project at BAAA."
+            description="Homepage for the music booking company KAIKA Music. Build using Next.js, Typescript and tailwindcss, for an exam project at BAAA."
             image="./kaika.png"
             link="https://kaika-music.vercel.app/"
             github="https://github.com/SimonCalundan/KaikaMusic.git"

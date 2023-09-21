@@ -22,15 +22,15 @@ function AboutText() {
         </div>
         <div className=" text-[1rem] text-egg-white font-raleway mx-[1rem] md:text-[0.9rem] lg:pr-20 xl:text-[1.1rem] xl:pr-60 ">
           <p>
-            I am Nicolai, a passionate frontend developer with a desire for
-            creating websites and applications that move people. My toolkit
+            I am Nicolai, a passionate frontend developer with a desire to
+            create websites and applications that move people. My toolkit
             includes{" "}
             <span className=" text-text-orange">
               HTML, CSS, JavaScript, React.js, Tailwind CSS, and Next.js.
             </span>{" "}
             <br /> <br />
-            But my love for coding lies witin the many possibilities of web- and
-            personal development. The programming universe knows no limits.{" "}
+            But my love for coding lies within the many possibilities of web-
+            and personal development. The programming universe knows no limits.{" "}
             <span className=" text-text-orange">
               {" "}
               I strive to elevate my expertise
