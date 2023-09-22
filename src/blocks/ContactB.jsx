@@ -7,7 +7,7 @@ function ContactB() {
     <>
       <section
         id="contactLink"
-        className=" bg-navy-blue z-10 lg:flex lg:flex-row lg:justify-evenly "
+        className=" bg-navy-blue z-10 pb-4 lg:flex lg:flex-row lg:justify-evenly "
       >
         <div className="flex flex-col md:flex-row lg:flex-col lg:max-w-[50vw] xl:mr-[2rem]">
           <div className="w-[80%] text-egg-white flex flex-col justify-center gap-2 ml-12 ">
